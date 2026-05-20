@@ -9,8 +9,12 @@
             }
         },
         "components": {
-            "minecraft:icon": "porter_box_texture",
-            "minecraft:display_name": "Porter Box",
+            "minecraft:icon": {
+                "texture": "porter_box_texture"
+            },
+            "minecraft:display_name": {
+                "value": "Porter Box"
+            },
             "minecraft:block_placer": {
                 "block": "porters_pack:porter_box"
             }

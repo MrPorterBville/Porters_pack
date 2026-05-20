@@ -1,7 +1,6 @@
 {
-    "num_mip_levels": 4,
-    "padding": 8,
     "resource_pack_name": "Porters_Pack",
+    "texture_name": "atlas.items",
     "texture_data": {
         "porter_box_texture": {
             "textures": "textures/blocks/Porter_Box"
