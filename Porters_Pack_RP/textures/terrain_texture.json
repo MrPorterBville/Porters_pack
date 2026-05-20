@@ -4,7 +4,7 @@
     "resource_pack_name": "Porters_Pack",
     "texture_data": {
         "porter_box_texture": {
-            "textures": "textures/blocks/porter_box"
+            "textures": "textures/blocks/Porter_Box"
         }
     }
 }
