@@ -1,0 +1,10 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "Porters_Pack",
+    "texture_data": {
+        "porter_box_texture": {
+            "textures": "textures/blocks/porter_box"
+        }
+    }
+}

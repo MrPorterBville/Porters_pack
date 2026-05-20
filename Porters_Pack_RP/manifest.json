@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Textures and 3D models for Porter's Pack",
+        "name": "Porter's Pack (Resource)",
+        "uuid": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 20, 20]
+    },
+    "modules": [
+        {
+            "description": "Resource Pack Module",
+            "type": "resources",
+            "uuid": "fa5e2d1c-4b7a-49ef-86ad-93c1b6e5f724",
+            "version": [1, 0, 0]
+        }
+    ]
+}

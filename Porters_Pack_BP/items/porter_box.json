@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "porters_pack:porter_box",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.shulkerBox"
+            }
+        },
+        "components": {
+            "minecraft:icon": "porter_box_texture",
+            "minecraft:display_name": "Porter Box",
+            "minecraft:block_placer": {
+                "block": "porters_pack:porter_box"
+            }
+        }
+    }
+}

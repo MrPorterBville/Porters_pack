@@ -1,0 +1,70 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "porters_pack:porter_box",
+            "states": {
+                "porters_pack:is_open": [0, 1]
+            }
+        },
+        "components": {
+            "minecraft:display_name": "Porter Box",
+            "minecraft:geometry": "geometry.porter_box",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "porter_box_texture",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            },
+            "minecraft:aim_collision": {
+                "origin": [-8, 0, -8],
+                "size": [16, 16, 16]
+            },
+            "minecraft:block_collision": {
+                "origin": [-8, 0, -8],
+                "size": [16, 16, 16]
+            },
+            "minecraft:inventory": {
+                "container_type": "container",
+                "inventory_size": 27,
+                "restricted_to_owner_item": false,
+                "item_filters": [
+                {
+                    "test": "is_item",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": "porters_pack:porter_box"
+                }
+    ]
+            },
+            "minecraft:shulker_box": {},
+            "minecraft:menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.shulkerBox"
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('porters_pack:is_open') == 0",
+                "components": {
+                    "minecraft:bone_visibility": {
+                        "lid_closed": true,
+                        "lid_open": false
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('porters_pack:is_open') == 1",
+                "components": {
+                    "minecraft:bone_visibility": {
+                        "lid_closed": false,
+                        "lid_open": true
+                    }
+                }
+            }
+        ]
+    }
+}

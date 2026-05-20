@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Logic and behaviors for Porter's Pack components",
+        "name": "Porter's Pack (Behavior)",
+        "uuid": "4f7a2b91-3c8e-4d22-9a1b-7e6f3c5d8a01",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 20, 20]
+    },
+    "modules": [
+        {
+            "description": "Behavior Pack Module",
+            "type": "data",
+            "uuid": "8b3c9e12-5f4a-4d77-bc6e-2a1f9d8c3b45",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+            "version": [1, 0, 0]
+        }
+    ]
+}
